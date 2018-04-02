@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/iOS/GPUImage-Prefix.pch \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageCannyEdgeDetectionFilter.m \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageCannyEdgeDetectionFilter.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageFilterGroup.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageOutput.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/iOS/GPUImageContext.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GLProgram.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageFramebuffer.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageFramebufferCache.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageFilter.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageGrayscaleFilter.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageDirectionalSobelEdgeDetectionFilter.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImage3x3TextureSamplingFilter.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageDirectionalNonMaximumSuppressionFilter.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageWeakPixelInclusionFilter.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageSingleComponentGaussianBlurFilter.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageGaussianBlurFilter.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageTwoPassTextureSamplingFilter.h \
+  /Users/lhp/Documents/GitHub/GPUImage/framework/Source/GPUImageTwoPassFilter.h

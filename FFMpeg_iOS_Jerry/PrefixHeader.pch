@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  FFMpeg_iOS_Jerry
+//
+//  Created by Jerry on 30/03/2018.
+//  Copyright © 2018 Jerry. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// 自定义log
+#if defined(DEBUG)||defined(_DEBUG)
+#define print(FORMAT, ...)  fprintf(__stderrp,"%s %s:%d\t%s\t%s\n",__TIME__,[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, __FUNCTION__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+#else
+#define print(FORMAT, ...)
+
+#endif
+
+// 库文件导入
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import "Interface.h"
+    #import "Consts.h"
+    #import "Fonts.h"
+    #import "Color.h"
+
+    #import "BaseViewController.h"
+    #import "BaseView.h"
+    #import "BaseModel.h"
+
+    #import "Commen.h"
+
+    #import "Masonry.h"
+    #import "MJExtension.h"
+    #import "MJRefresh.h"
+    #import "SDWebImageManager.h"
+#endif
+
+
+#endif /* PrefixHeader_pch */
