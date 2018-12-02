@@ -7,6 +7,8 @@
 //
 
 #import "BaseViewController.h"
+#import <CoreText/CoreText.h>
+
 
 @interface BaseViewController ()
 
@@ -16,7 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+//    CGContextRef context =UIGraphicsGetCurrentContext();
+//    
+//    CGContextTranslateCTM(<#CGContextRef  _Nullable c#>, <#CGFloat tx#>, <#CGFloat ty#>)
+    
 }
 
 - (void)didReceiveMemoryWarning {
