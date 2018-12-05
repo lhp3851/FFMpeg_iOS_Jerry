@@ -5,6 +5,8 @@
 ## Build generated
 build/
 DerivedData/
+Libraries/iPhone
+Libraries/Simulator
 
 
 ## Various settings
