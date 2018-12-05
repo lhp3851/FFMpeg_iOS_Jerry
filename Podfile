@@ -11,17 +11,12 @@ target 'FFMpeg_iOS_Jerry' do
 
     pod 'AFNetworking', '~> 3.0'
     pod 'SDWebImage', '~>4.4.2'
-<<<<<<< HEAD
     #pod 'SDWebImage/WebP', :git => 'https://chromium.googlesource.com/webm/libwebp'
-=======
-    #pod 'SDWebImage/WebP'
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
     pod 'MJExtension'
     pod 'MJRefresh'
     pod 'MWPhotoBrowser', :git => 'https://github.com/lhp3851/MWPhotoBrowser.git', :commit => 'cfdf67cd0232a3575b5109067f61dbf7268b5638'
     pod 'Masonry'
     pod 'FMDB'
-<<<<<<< HEAD
     pod 'GPUImage'
     pod 'XMPPFramework'
     pod 'TTTAttributedLabel'
@@ -55,16 +50,7 @@ target 'FFMpeg_iOS_Jerry' do
     #pod 'mob_sharesdk/ShareSDKPlatforms/WeChat'
     #pod 'mob_sharesdk/ShareSDKPlatforms/WeChatFull' #（微信sdk不带支付的命令）
     
-=======
-    #pod 'BaiduMapKit' #百度地图SDK
-    #pod 'BaiduMobStat'
-    pod 'HMSegmentedControl'
-    #pod 'PNChart'
-    
-    pod 'GPUImage'
-    pod 'XMPPFramework'
 
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 
   target 'FFMpeg_iOS_JerryTests' do
     inherit! :search_paths

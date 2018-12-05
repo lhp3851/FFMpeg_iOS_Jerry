@@ -13,10 +13,7 @@
 #import "AFNetworking.h"
 #import "AFHTTPSessionManager.h"
 #import "AFURLSessionManager.h"
-<<<<<<< HEAD
 #import "AFCompatibilityMacros.h"
-=======
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 #import "AFNetworkReachabilityManager.h"
 #import "AFSecurityPolicy.h"
 #import "AFURLRequestSerialization.h"

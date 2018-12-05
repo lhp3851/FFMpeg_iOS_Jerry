@@ -7,13 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
-		32239593D5FC545F02EE4EA4 /* Pods_FFMpeg_iOS_JerryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7053C3F3FC96A5DEE6C1A7 /* Pods_FFMpeg_iOS_JerryTests.framework */; };
-		6924846616E1F7C1C988A46F /* Pods_FFMpeg_iOS_Jerry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041A46C190296C1FCC7CD23F /* Pods_FFMpeg_iOS_Jerry.framework */; };
-=======
-		3264C3411BFB237235FE9655 /* Pods_FFMpeg_iOS_JerryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98FBF1FA7C2EB2F9B4DBAC08 /* Pods_FFMpeg_iOS_JerryTests.framework */; };
-		38609E7EF7161A49118D7A2D /* Pods_FFMpeg_iOS_Jerry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3049E621FA100F16F9BD2193 /* Pods_FFMpeg_iOS_Jerry.framework */; };
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 		7A6A24E521B3040C00B889C2 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A24E421B3040C00B889C2 /* IJKMediaFramework.framework */; };
 		7A6A24E721B305BD00B889C2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A24E621B305BD00B889C2 /* AudioToolbox.framework */; };
 		7A6A24E921B305D000B889C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A24E821B305D000B889C2 /* CoreGraphics.framework */; };
@@ -24,7 +17,6 @@
 		7A6A24F321B3063400B889C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A24F221B3063400B889C2 /* UIKit.framework */; };
 		7A6A24F521B3064500B889C2 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A24F421B3064400B889C2 /* VideoToolbox.framework */; };
 		7A6A24F721B3069800B889C2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A24F621B3069800B889C2 /* libc++.tbd */; };
-<<<<<<< HEAD
 		7A6A250721B574C200B889C2 /* kkBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A250621B574C200B889C2 /* kkBaseTableViewController.m */; };
 		7A6A250C21B5753800B889C2 /* KKBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A250B21B5753800B889C2 /* KKBaseTableView.m */; };
 		7A6A250F21B5755400B889C2 /* KKBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A250E21B5755400B889C2 /* KKBaseTableViewCell.m */; };
@@ -104,18 +96,12 @@
 		7A6A268121B6E42900B889C2 /* OpenSSLRSAWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A267921B6E42900B889C2 /* OpenSSLRSAWrapper.m */; };
 		7A6A268221B6E42900B889C2 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A267C21B6E42900B889C2 /* NSData+CommonCrypto.m */; };
 		7A6A268421B6E42900B889C2 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A267E21B6E42900B889C2 /* NSData+Base64.m */; };
-		9DFE6C256E426CFC740C0A41 /* Pods_FFMpeg_iOS_JerryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D250C92DFC2E59F3764A25C3 /* Pods_FFMpeg_iOS_JerryUITests.framework */; };
+		9B4A7484CD75E330057B67F1 /* Pods_FFMpeg_iOS_JerryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D6E15F86B3B8545BF8EC48 /* Pods_FFMpeg_iOS_JerryUITests.framework */; };
+		B23DC7636B8B603F6E542602 /* Pods_FFMpeg_iOS_JerryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7F3B4897D230BFF9AA41C9 /* Pods_FFMpeg_iOS_JerryTests.framework */; };
 		D70E8AEB206E27B700E21C46 /* PictureTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D70E8AEA206E27B700E21C46 /* PictureTool.m */; };
 		D70E8AEF206E2CAD00E21C46 /* KKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70E8AEE206E2CAD00E21C46 /* KKBaseViewController.m */; };
 		D70E8AF6206E2D1300E21C46 /* KKBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70E8AF5206E2D1300E21C46 /* KKBaseView.m */; };
 		D70E8AF9206E2D2700E21C46 /* KKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70E8AF8206E2D2700E21C46 /* KKBaseModel.m */; };
-=======
-		CD2D8E71F586F3CE13B29394 /* Pods_FFMpeg_iOS_JerryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7FC44144E3414C999FBB58 /* Pods_FFMpeg_iOS_JerryUITests.framework */; };
-		D70E8AEB206E27B700E21C46 /* PictureTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D70E8AEA206E27B700E21C46 /* PictureTool.m */; };
-		D70E8AEF206E2CAD00E21C46 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70E8AEE206E2CAD00E21C46 /* BaseViewController.m */; };
-		D70E8AF6206E2D1300E21C46 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70E8AF5206E2D1300E21C46 /* BaseView.m */; };
-		D70E8AF9206E2D2700E21C46 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D70E8AF8206E2D2700E21C46 /* BaseModel.m */; };
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 		D71013A2206CF8B800C5D4AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D71013A1206CF8B800C5D4AF /* AppDelegate.m */; };
 		D71013A5206CF8B800C5D4AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71013A4206CF8B800C5D4AF /* ViewController.m */; };
 		D71013A8206CF8B800C5D4AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71013A6206CF8B800C5D4AF /* Main.storyboard */; };
@@ -129,6 +115,7 @@
 		D71013D7206CFBC600C5D4AF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71013D6206CFBC600C5D4AF /* OpenGLES.framework */; };
 		D71013D9206CFBD400C5D4AF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71013D8206CFBD400C5D4AF /* AVFoundation.framework */; };
 		D71013DB206CFBE000C5D4AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71013DA206CFBE000C5D4AF /* QuartzCore.framework */; };
+		E716850D61FF6F15E1D1D3DC /* Pods_FFMpeg_iOS_Jerry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15610818CCD5260BE82DD6EF /* Pods_FFMpeg_iOS_Jerry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,13 +148,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
-		041A46C190296C1FCC7CD23F /* Pods_FFMpeg_iOS_Jerry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_iOS_Jerry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28248F402680F7AA75375F3A /* Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryUITests/Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig"; sourceTree = "<group>"; };
-=======
-		3049E621FA100F16F9BD2193 /* Pods_FFMpeg_iOS_Jerry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_iOS_Jerry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44259D302D56750E89855477 /* Pods-FFMpeg_iOS_Jerry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_Jerry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_Jerry/Pods-FFMpeg_iOS_Jerry.debug.xcconfig"; sourceTree = "<group>"; };
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+		12557FD2F892207DC59C6AF4 /* Pods-FFMpeg_iOS_JerryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryTests/Pods-FFMpeg_iOS_JerryTests.release.xcconfig"; sourceTree = "<group>"; };
+		15610818CCD5260BE82DD6EF /* Pods_FFMpeg_iOS_Jerry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_iOS_Jerry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D82F371CA7CD1E4C1368CD9 /* Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryUITests/Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5377C9F10F60C1466C792663 /* Pods-FFMpeg_iOS_Jerry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_Jerry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_Jerry/Pods-FFMpeg_iOS_Jerry.debug.xcconfig"; sourceTree = "<group>"; };
+		6E1E09A83437FF1DE1C3B4B7 /* Pods-FFMpeg_iOS_Jerry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_Jerry.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_Jerry/Pods-FFMpeg_iOS_Jerry.release.xcconfig"; sourceTree = "<group>"; };
 		7A6A24E421B3040C00B889C2 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = Simulator/IJKMediaFramework.framework; sourceTree = "<group>"; };
 		7A6A24E621B305BD00B889C2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7A6A24E821B305D000B889C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -178,7 +163,6 @@
 		7A6A24F221B3063400B889C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7A6A24F421B3064400B889C2 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		7A6A24F621B3069800B889C2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-<<<<<<< HEAD
 		7A6A250521B574C200B889C2 /* kkBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kkBaseTableViewController.h; sourceTree = "<group>"; };
 		7A6A250621B574C200B889C2 /* kkBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kkBaseTableViewController.m; sourceTree = "<group>"; };
 		7A6A250A21B5753800B889C2 /* KKBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBaseTableView.h; sourceTree = "<group>"; };
@@ -422,11 +406,10 @@
 		7A6A267B21B6E42900B889C2 /* KKRsaTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRsaTool.h; sourceTree = "<group>"; };
 		7A6A267C21B6E42900B889C2 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
 		7A6A267E21B6E42900B889C2 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		7D7053C3F3FC96A5DEE6C1A7 /* Pods_FFMpeg_iOS_JerryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_iOS_JerryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E13FE016CFB97CB41C5A7D2 /* Pods-FFMpeg_iOS_Jerry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_Jerry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_Jerry/Pods-FFMpeg_iOS_Jerry.debug.xcconfig"; sourceTree = "<group>"; };
-		B2C3BF5F9CE35DD5DD2C9143 /* Pods-FFMpeg_iOS_JerryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryTests/Pods-FFMpeg_iOS_JerryTests.release.xcconfig"; sourceTree = "<group>"; };
-		D1E6618881F4E91AD51DBFB7 /* Pods-FFMpeg_iOS_Jerry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_Jerry.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_Jerry/Pods-FFMpeg_iOS_Jerry.release.xcconfig"; sourceTree = "<group>"; };
-		D250C92DFC2E59F3764A25C3 /* Pods_FFMpeg_iOS_JerryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_iOS_JerryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C7F3B4897D230BFF9AA41C9 /* Pods_FFMpeg_iOS_JerryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_iOS_JerryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FECC390577D30165BDC5DA /* Pods-FFMpeg_iOS_JerryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryTests/Pods-FFMpeg_iOS_JerryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1D23474309E7461C5D7B8B5 /* Pods-FFMpeg_iOS_JerryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryUITests/Pods-FFMpeg_iOS_JerryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D6D6E15F86B3B8545BF8EC48 /* Pods_FFMpeg_iOS_JerryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_iOS_JerryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70E8AE9206E27B700E21C46 /* PictureTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureTool.h; sourceTree = "<group>"; };
 		D70E8AEA206E27B700E21C46 /* PictureTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureTool.m; sourceTree = "<group>"; };
 		D70E8AEC206E2BF500E21C46 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -436,22 +419,6 @@
 		D70E8AF5206E2D1300E21C46 /* KKBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKBaseView.m; sourceTree = "<group>"; };
 		D70E8AF7206E2D2700E21C46 /* KKBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKBaseModel.h; sourceTree = "<group>"; };
 		D70E8AF8206E2D2700E21C46 /* KKBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKBaseModel.m; sourceTree = "<group>"; };
-=======
-		83B61F1F26F37066DC80914A /* Pods-FFMpeg_iOS_JerryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryTests/Pods-FFMpeg_iOS_JerryTests.release.xcconfig"; sourceTree = "<group>"; };
-		98FBF1FA7C2EB2F9B4DBAC08 /* Pods_FFMpeg_iOS_JerryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_iOS_JerryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A04BD047A8A9F7A71DEA4260 /* Pods-FFMpeg_iOS_JerryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryTests/Pods-FFMpeg_iOS_JerryTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A6F55B074BEF0B7D65125AD1 /* Pods-FFMpeg_iOS_Jerry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_Jerry.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_Jerry/Pods-FFMpeg_iOS_Jerry.release.xcconfig"; sourceTree = "<group>"; };
-		BD7FC44144E3414C999FBB58 /* Pods_FFMpeg_iOS_JerryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_iOS_JerryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D70E8AE9206E27B700E21C46 /* PictureTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureTool.h; sourceTree = "<group>"; };
-		D70E8AEA206E27B700E21C46 /* PictureTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureTool.m; sourceTree = "<group>"; };
-		D70E8AEC206E2BF500E21C46 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		D70E8AED206E2CAD00E21C46 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		D70E8AEE206E2CAD00E21C46 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		D70E8AF4206E2D1300E21C46 /* BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
-		D70E8AF5206E2D1300E21C46 /* BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
-		D70E8AF7206E2D2700E21C46 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
-		D70E8AF8206E2D2700E21C46 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 		D70E8AFA206E2D4A00E21C46 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		D70E8AFB206E2D5C00E21C46 /* Interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
 		D70E8AFC206E2D6D00E21C46 /* Fonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fonts.h; sourceTree = "<group>"; };
@@ -478,13 +445,6 @@
 		D71013D6206CFBC600C5D4AF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		D71013D8206CFBD400C5D4AF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D71013DA206CFBE000C5D4AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-<<<<<<< HEAD
-		DB6CED8558116E4D83C89923 /* Pods-FFMpeg_iOS_JerryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryUITests/Pods-FFMpeg_iOS_JerryUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F3F3CA009AE4C34A8B80F6DA /* Pods-FFMpeg_iOS_JerryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryTests/Pods-FFMpeg_iOS_JerryTests.debug.xcconfig"; sourceTree = "<group>"; };
-=======
-		E255EA5BEBBD63A979D22A68 /* Pods-FFMpeg_iOS_JerryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryUITests/Pods-FFMpeg_iOS_JerryUITests.release.xcconfig"; sourceTree = "<group>"; };
-		E3CF66018B587CCA1A0B34E3 /* Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryUITests/Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig"; sourceTree = "<group>"; };
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -500,27 +460,17 @@
 				7A6A24EF21B3060200B889C2 /* MediaPlayer.framework in Frameworks */,
 				7A6A24ED21B305F900B889C2 /* libz.tbd in Frameworks */,
 				7A6A24EB21B305F100B889C2 /* libbz2.tbd in Frameworks */,
-<<<<<<< HEAD
 				7A6A266C21B6DD2100B889C2 /* libcrypto.a in Frameworks */,
 				D71013D3206CFBB500C5D4AF /* CoreMedia.framework in Frameworks */,
 				7A6A24E921B305D000B889C2 /* CoreGraphics.framework in Frameworks */,
 				7A6A24E721B305BD00B889C2 /* AudioToolbox.framework in Frameworks */,
 				7A6A256B21B6B46200B889C2 /* WebP.framework in Frameworks */,
-=======
-				D71013D3206CFBB500C5D4AF /* CoreMedia.framework in Frameworks */,
-				7A6A24E921B305D000B889C2 /* CoreGraphics.framework in Frameworks */,
-				7A6A24E721B305BD00B889C2 /* AudioToolbox.framework in Frameworks */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 				D71013DB206CFBE000C5D4AF /* QuartzCore.framework in Frameworks */,
 				D71013D9206CFBD400C5D4AF /* AVFoundation.framework in Frameworks */,
 				D71013D5206CFBBC00C5D4AF /* CoreVideo.framework in Frameworks */,
 				7A6A24E521B3040C00B889C2 /* IJKMediaFramework.framework in Frameworks */,
-<<<<<<< HEAD
 				7A6A266D21B6DD2100B889C2 /* libssl.a in Frameworks */,
-				6924846616E1F7C1C988A46F /* Pods_FFMpeg_iOS_Jerry.framework in Frameworks */,
-=======
-				38609E7EF7161A49118D7A2D /* Pods_FFMpeg_iOS_Jerry.framework in Frameworks */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+				E716850D61FF6F15E1D1D3DC /* Pods_FFMpeg_iOS_Jerry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,11 +478,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-				32239593D5FC545F02EE4EA4 /* Pods_FFMpeg_iOS_JerryTests.framework in Frameworks */,
-=======
-				3264C3411BFB237235FE9655 /* Pods_FFMpeg_iOS_JerryTests.framework in Frameworks */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+				B23DC7636B8B603F6E542602 /* Pods_FFMpeg_iOS_JerryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,18 +486,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-				9DFE6C256E426CFC740C0A41 /* Pods_FFMpeg_iOS_JerryUITests.framework in Frameworks */,
-=======
-				CD2D8E71F586F3CE13B29394 /* Pods_FFMpeg_iOS_JerryUITests.framework in Frameworks */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+				9B4A7484CD75E330057B67F1 /* Pods_FFMpeg_iOS_JerryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-<<<<<<< HEAD
+		40AD60E1DF8EE2985A21A64C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5377C9F10F60C1466C792663 /* Pods-FFMpeg_iOS_Jerry.debug.xcconfig */,
+				6E1E09A83437FF1DE1C3B4B7 /* Pods-FFMpeg_iOS_Jerry.release.xcconfig */,
+				A1FECC390577D30165BDC5DA /* Pods-FFMpeg_iOS_JerryTests.debug.xcconfig */,
+				12557FD2F892207DC59C6AF4 /* Pods-FFMpeg_iOS_JerryTests.release.xcconfig */,
+				1D82F371CA7CD1E4C1368CD9 /* Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig */,
+				B1D23474309E7461C5D7B8B5 /* Pods-FFMpeg_iOS_JerryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7A6A24E121B3029100B889C2 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -743,7 +697,6 @@
 				7A6A257321B6B54700B889C2 /* UIApplication */,
 				7A6A256C21B6B51D00B889C2 /* UIColor */,
 				7A6A251E21B5881D00B889C2 /* UIImage */,
-				7A6A251D21B5880900B889C2 /* DateAndTime */,
 				7A6A251C21B587FF00B889C2 /* UIApplication */,
 				7A6A251B21B587DE00B889C2 /* NSString */,
 			);
@@ -770,13 +723,6 @@
 				7A6A253A21B6AAEB00B889C2 /* UIApplication+App.m */,
 			);
 			path = UIApplication;
-			sourceTree = "<group>";
-		};
-		7A6A251D21B5880900B889C2 /* DateAndTime */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DateAndTime;
 			sourceTree = "<group>";
 		};
 		7A6A251E21B5881D00B889C2 /* UIImage */ = {
@@ -1214,42 +1160,13 @@
 			path = Rsa;
 			sourceTree = "<group>";
 		};
-		9AE946D59FA519E76D7E8188 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8E13FE016CFB97CB41C5A7D2 /* Pods-FFMpeg_iOS_Jerry.debug.xcconfig */,
-				D1E6618881F4E91AD51DBFB7 /* Pods-FFMpeg_iOS_Jerry.release.xcconfig */,
-				F3F3CA009AE4C34A8B80F6DA /* Pods-FFMpeg_iOS_JerryTests.debug.xcconfig */,
-				B2C3BF5F9CE35DD5DD2C9143 /* Pods-FFMpeg_iOS_JerryTests.release.xcconfig */,
-				28248F402680F7AA75375F3A /* Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig */,
-				DB6CED8558116E4D83C89923 /* Pods-FFMpeg_iOS_JerryUITests.release.xcconfig */,
-			);
-			name = Pods;
-=======
-		7A6A24E121B3029100B889C2 /* libraries */ = {
-			isa = PBXGroup;
-			children = (
-				7A6A24E421B3040C00B889C2 /* IJKMediaFramework.framework */,
-			);
-			path = libraries;
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
-			sourceTree = "<group>";
-		};
 		D70E88B6206E0D4F00E21C46 /* Commen */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				7A6A250121B572C900B889C2 /* Cmponents */,
 				7A6A250021B571E900B889C2 /* Bases */,
 				D70E8AFE206E2F0B00E21C46 /* Commen */,
 				D70E8AF3206E2CE800E21C46 /* Const */,
-=======
-				D70E8AFE206E2F0B00E21C46 /* Commen */,
-				D70E8AF3206E2CE800E21C46 /* Const */,
-				D70E8AF2206E2CCD00E21C46 /* View */,
-				D70E8AF1206E2CC400E21C46 /* Model */,
-				D70E8AF0206E2CB200E21C46 /* Controller */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 			);
 			path = Commen;
 			sourceTree = "<group>";
@@ -1258,30 +1175,21 @@
 			isa = PBXGroup;
 			children = (
 			);
-<<<<<<< HEAD
 			name = Video;
 			path = ../FFMpeg_iOS_Jerry/Video;
-=======
-			path = Video;
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 			sourceTree = "<group>";
 		};
 		D70E8AE4206E251700E21C46 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
 			);
-<<<<<<< HEAD
 			name = Audio;
 			path = ../FFMpeg_iOS_Jerry/Audio;
-=======
-			path = Audio;
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 			sourceTree = "<group>";
 		};
 		D70E8AE5206E251F00E21C46 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				7A6A25C421B6D31500B889C2 /* Singleton */,
 				7A6A25B721B6C5F400B889C2 /* Encrypt */,
 				7A6A259721B6C06C00B889C2 /* HTTPTool */,
@@ -1299,10 +1207,6 @@
 			);
 			name = Tool;
 			path = FFMpeg_iOS_Jerry/Tool;
-=======
-			);
-			path = Tool;
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 			sourceTree = "<group>";
 		};
 		D70E8AE6206E253F00E21C46 /* Camera */ = {
@@ -1310,12 +1214,8 @@
 			children = (
 				D70E8AE7206E255400E21C46 /* QRCode */,
 			);
-<<<<<<< HEAD
 			name = Camera;
 			path = ../../Camera;
-=======
-			path = Camera;
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 			sourceTree = "<group>";
 		};
 		D70E8AE7206E255400E21C46 /* QRCode */ = {
@@ -1337,7 +1237,6 @@
 		D70E8AF0206E2CB200E21C46 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				D70E8AED206E2CAD00E21C46 /* KKBaseViewController.h */,
 				D70E8AEE206E2CAD00E21C46 /* KKBaseViewController.m */,
 				7A6A250521B574C200B889C2 /* kkBaseTableViewController.h */,
@@ -1346,10 +1245,6 @@
 				7A6A251121B5763800B889C2 /* KKBaseNavigationViewController.m */,
 				7A6A255921B6ACEF00B889C2 /* KKBaseAlertController.h */,
 				7A6A255A21B6ACEF00B889C2 /* KKBaseAlertController.m */,
-=======
-				D70E8AED206E2CAD00E21C46 /* BaseViewController.h */,
-				D70E8AEE206E2CAD00E21C46 /* BaseViewController.m */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1357,13 +1252,8 @@
 		D70E8AF1206E2CC400E21C46 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				D70E8AF7206E2D2700E21C46 /* KKBaseModel.h */,
 				D70E8AF8206E2D2700E21C46 /* KKBaseModel.m */,
-=======
-				D70E8AF7206E2D2700E21C46 /* BaseModel.h */,
-				D70E8AF8206E2D2700E21C46 /* BaseModel.m */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1371,15 +1261,10 @@
 		D70E8AF2206E2CCD00E21C46 /* View */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				D70E8AF4206E2D1300E21C46 /* KKBaseView.h */,
 				D70E8AF5206E2D1300E21C46 /* KKBaseView.m */,
 				7A6A257921B6B5FC00B889C2 /* UIView+Extension.m */,
 				7A6A257821B6B5EB00B889C2 /* UIView+Extension.h */,
-=======
-				D70E8AF4206E2D1300E21C46 /* BaseView.h */,
-				D70E8AF5206E2D1300E21C46 /* BaseView.m */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1391,11 +1276,8 @@
 				D70E8AFB206E2D5C00E21C46 /* Interface.h */,
 				D70E8AFC206E2D6D00E21C46 /* Fonts.h */,
 				D70E8AFD206E2D8C00E21C46 /* Consts.h */,
-<<<<<<< HEAD
 				7A6A255C21B6AF8700B889C2 /* Components.h */,
 				7A6A257B21B6B7B300B889C2 /* Foundation.h */,
-=======
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 			);
 			path = Const;
 			sourceTree = "<group>";
@@ -1411,26 +1293,17 @@
 		D7101394206CF8B700C5D4AF = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				7A6A251A21B587CC00B889C2 /* FoundationsTool */,
 				7A6A24F921B5711C00B889C2 /* Resources */,
 				D70E8AE5206E251F00E21C46 /* Tool */,
 				7A6A24E121B3029100B889C2 /* Libraries */,
-=======
-				7A6A24E121B3029100B889C2 /* libraries */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 				D70E88B6206E0D4F00E21C46 /* Commen */,
 				D710139F206CF8B800C5D4AF /* FFMpeg_iOS_Jerry */,
 				D71013B8206CF8B800C5D4AF /* FFMpeg_iOS_JerryTests */,
 				D71013C3206CF8B800C5D4AF /* FFMpeg_iOS_JerryUITests */,
 				D710139E206CF8B800C5D4AF /* Products */,
-<<<<<<< HEAD
 				E4AD8D5AB6B58B15D735C0B5 /* Frameworks */,
-				9AE946D59FA519E76D7E8188 /* Pods */,
-=======
-				F7C8584AB34BAE99E04CD93A /* Pods */,
-				E4AD8D5AB6B58B15D735C0B5 /* Frameworks */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+				40AD60E1DF8EE2985A21A64C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1447,16 +1320,8 @@
 		D710139F206CF8B800C5D4AF /* FFMpeg_iOS_Jerry */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				7A6A25BF21B6D23C00B889C2 /* Accounts */,
 				7A6A24F821B3DE2D00B889C2 /* Modules */,
-=======
-				D70E8AE8206E26BA00E21C46 /* Picture */,
-				D70E8AE6206E253F00E21C46 /* Camera */,
-				D70E8AE5206E251F00E21C46 /* Tool */,
-				D70E8AE4206E251700E21C46 /* Audio */,
-				D70E8AE3206E250800E21C46 /* Video */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 				D71013A0206CF8B800C5D4AF /* AppDelegate.h */,
 				D71013A1206CF8B800C5D4AF /* AppDelegate.m */,
 				D71013A6206CF8B800C5D4AF /* Main.storyboard */,
@@ -1504,35 +1369,13 @@
 				D71013D6206CFBC600C5D4AF /* OpenGLES.framework */,
 				D71013D4206CFBBC00C5D4AF /* CoreVideo.framework */,
 				D71013D2206CFBB500C5D4AF /* CoreMedia.framework */,
-<<<<<<< HEAD
-				041A46C190296C1FCC7CD23F /* Pods_FFMpeg_iOS_Jerry.framework */,
-				7D7053C3F3FC96A5DEE6C1A7 /* Pods_FFMpeg_iOS_JerryTests.framework */,
-				D250C92DFC2E59F3764A25C3 /* Pods_FFMpeg_iOS_JerryUITests.framework */,
-=======
-				3049E621FA100F16F9BD2193 /* Pods_FFMpeg_iOS_Jerry.framework */,
-				98FBF1FA7C2EB2F9B4DBAC08 /* Pods_FFMpeg_iOS_JerryTests.framework */,
-				BD7FC44144E3414C999FBB58 /* Pods_FFMpeg_iOS_JerryUITests.framework */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+				15610818CCD5260BE82DD6EF /* Pods_FFMpeg_iOS_Jerry.framework */,
+				7C7F3B4897D230BFF9AA41C9 /* Pods_FFMpeg_iOS_JerryTests.framework */,
+				D6D6E15F86B3B8545BF8EC48 /* Pods_FFMpeg_iOS_JerryUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-=======
-		F7C8584AB34BAE99E04CD93A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				44259D302D56750E89855477 /* Pods-FFMpeg_iOS_Jerry.debug.xcconfig */,
-				A6F55B074BEF0B7D65125AD1 /* Pods-FFMpeg_iOS_Jerry.release.xcconfig */,
-				A04BD047A8A9F7A71DEA4260 /* Pods-FFMpeg_iOS_JerryTests.debug.xcconfig */,
-				83B61F1F26F37066DC80914A /* Pods-FFMpeg_iOS_JerryTests.release.xcconfig */,
-				E3CF66018B587CCA1A0B34E3 /* Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig */,
-				E255EA5BEBBD63A979D22A68 /* Pods-FFMpeg_iOS_JerryUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1540,20 +1383,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D71013C9206CF8B800C5D4AF /* Build configuration list for PBXNativeTarget "FFMpeg_iOS_Jerry" */;
 			buildPhases = (
-<<<<<<< HEAD
-				C059FF86472A0D2EA7F01BE8 /* [CP] Check Pods Manifest.lock */,
-=======
-				80264265FB9FB6FE01F98FF0 /* [CP] Check Pods Manifest.lock */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+				7A00AA1AB8E3ADCE501D1DD8 /* [CP] Check Pods Manifest.lock */,
 				D7101399206CF8B800C5D4AF /* Sources */,
 				D710139A206CF8B800C5D4AF /* Frameworks */,
 				D710139B206CF8B800C5D4AF /* Resources */,
 				D70E8AE1206E0DDD00E21C46 /* CopyFiles */,
-<<<<<<< HEAD
-				348E49D619315546FB43F765 /* [CP] Embed Pods Frameworks */,
-=======
-				22B25D10817D0615FC1350DB /* [CP] Embed Pods Frameworks */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+				79EA0D71235DA7688C56FF1C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1568,11 +1403,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D71013CC206CF8B800C5D4AF /* Build configuration list for PBXNativeTarget "FFMpeg_iOS_JerryTests" */;
 			buildPhases = (
-<<<<<<< HEAD
-				F5DED8E4B1F3F67677CFF222 /* [CP] Check Pods Manifest.lock */,
-=======
-				5F4BCF9EA3F7A642B21245D3 /* [CP] Check Pods Manifest.lock */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+				460F2BF22B986BF1FA61D23D /* [CP] Check Pods Manifest.lock */,
 				D71013B1206CF8B800C5D4AF /* Sources */,
 				D71013B2206CF8B800C5D4AF /* Frameworks */,
 				D71013B3206CF8B800C5D4AF /* Resources */,
@@ -1591,11 +1422,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D71013CF206CF8B800C5D4AF /* Build configuration list for PBXNativeTarget "FFMpeg_iOS_JerryUITests" */;
 			buildPhases = (
-<<<<<<< HEAD
-				4C2B29BD7E4898775618E6E7 /* [CP] Check Pods Manifest.lock */,
-=======
-				CDA9D07F13615BBB42BF7C91 /* [CP] Check Pods Manifest.lock */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+				4E49E6DCCE674006B0B54F70 /* [CP] Check Pods Manifest.lock */,
 				D71013BC206CF8B800C5D4AF /* Sources */,
 				D71013BD206CF8B800C5D4AF /* Frameworks */,
 				D71013BE206CF8B800C5D4AF /* Resources */,
@@ -1616,10 +1443,7 @@
 		D7101395206CF8B700C5D4AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-<<<<<<< HEAD
 				CLASSPREFIX = KK;
-=======
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Jerry;
 				TargetAttributes = {
@@ -1687,11 +1511,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-<<<<<<< HEAD
-		348E49D619315546FB43F765 /* [CP] Embed Pods Frameworks */ = {
-=======
-		22B25D10817D0615FC1350DB /* [CP] Embed Pods Frameworks */ = {
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+		460F2BF22B986BF1FA61D23D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FFMpeg_iOS_JerryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E49E6DCCE674006B0B54F70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FFMpeg_iOS_JerryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79EA0D71235DA7688C56FF1C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1703,10 +1559,7 @@
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
-<<<<<<< HEAD
 				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
-=======
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
 				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
 				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
@@ -1715,7 +1568,6 @@
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MWPhotoBrowser/MWPhotoBrowser.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-<<<<<<< HEAD
 				"${BUILT_PRODUCTS_DIR}/PNChart/PNChart.framework",
 				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
@@ -1726,11 +1578,6 @@
 				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 				"${BUILT_PRODUCTS_DIR}/libidn/libidn.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
-=======
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework",
-				"${BUILT_PRODUCTS_DIR}/libidn/libidn.framework",
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -1739,10 +1586,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
-<<<<<<< HEAD
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
-=======
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
@@ -1751,7 +1595,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MWPhotoBrowser.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-<<<<<<< HEAD
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PNChart.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -1762,48 +1605,13 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libidn.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
-=======
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMPPFramework.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libidn.framework",
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FFMpeg_iOS_Jerry/Pods-FFMpeg_iOS_Jerry-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-<<<<<<< HEAD
-		4C2B29BD7E4898775618E6E7 /* [CP] Check Pods Manifest.lock */ = {
-=======
-		5F4BCF9EA3F7A642B21245D3 /* [CP] Check Pods Manifest.lock */ = {
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-<<<<<<< HEAD
-				"$(DERIVED_FILE_DIR)/Pods-FFMpeg_iOS_JerryUITests-checkManifestLockResult.txt",
-=======
-				"$(DERIVED_FILE_DIR)/Pods-FFMpeg_iOS_JerryTests-checkManifestLockResult.txt",
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-<<<<<<< HEAD
-		C059FF86472A0D2EA7F01BE8 /* [CP] Check Pods Manifest.lock */ = {
-=======
-		80264265FB9FB6FE01F98FF0 /* [CP] Check Pods Manifest.lock */ = {
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+		7A00AA1AB8E3ADCE501D1DD8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1821,32 +1629,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-<<<<<<< HEAD
-		F5DED8E4B1F3F67677CFF222 /* [CP] Check Pods Manifest.lock */ = {
-=======
-		CDA9D07F13615BBB42BF7C91 /* [CP] Check Pods Manifest.lock */ = {
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-<<<<<<< HEAD
-				"$(DERIVED_FILE_DIR)/Pods-FFMpeg_iOS_JerryTests-checkManifestLockResult.txt",
-=======
-				"$(DERIVED_FILE_DIR)/Pods-FFMpeg_iOS_JerryUITests-checkManifestLockResult.txt",
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1854,7 +1636,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				7A6A260221B6DB8400B889C2 /* fileenc.c in Sources */,
 				7A6A257F21B6BB0C00B889C2 /* DateTool.m in Sources */,
 				7A6A254721B6AAF600B889C2 /* UIImage+KKWebP.m in Sources */,
@@ -1923,13 +1704,6 @@
 				D70E8AEB206E27B700E21C46 /* PictureTool.m in Sources */,
 				7A6A259221B6BDEC00B889C2 /* KKTimer.m in Sources */,
 				7A6A25FC21B6DB8300B889C2 /* ioapi.c in Sources */,
-=======
-				D70E8AF9206E2D2700E21C46 /* BaseModel.m in Sources */,
-				D71013A5206CF8B800C5D4AF /* ViewController.m in Sources */,
-				D70E8AF6206E2D1300E21C46 /* BaseView.m in Sources */,
-				D70E8AEF206E2CAD00E21C46 /* BaseViewController.m in Sources */,
-				D70E8AEB206E27B700E21C46 /* PictureTool.m in Sources */,
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 				D71013B0206CF8B800C5D4AF /* main.m in Sources */,
 				7A6A25B121B6C16A00B889C2 /* KKLoadingView.m in Sources */,
 				7A6A251221B5763800B889C2 /* KKBaseNavigationViewController.m in Sources */,
@@ -2111,11 +1885,7 @@
 		};
 		D71013CA206CF8B800C5D4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
-			baseConfigurationReference = 8E13FE016CFB97CB41C5A7D2 /* Pods-FFMpeg_iOS_Jerry.debug.xcconfig */;
-=======
-			baseConfigurationReference = 44259D302D56750E89855477 /* Pods-FFMpeg_iOS_Jerry.debug.xcconfig */;
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+			baseConfigurationReference = 5377C9F10F60C1466C792663 /* Pods-FFMpeg_iOS_Jerry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
@@ -2126,7 +1896,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/libraries",
 					"$(PROJECT_DIR)/libraries/Simulator",
-<<<<<<< HEAD
 					"$(PROJECT_DIR)/Libraries",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2138,11 +1907,6 @@
 					"$(SDKROOT)/usr/include/libresolv",
 					"$(PROJECT_DIR)/Libraries/rsa/**",
 				);
-=======
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$SRCROOT/FFMpeg_iOS_Jerry/PrefixHeader.pch";
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 				INFOPLIST_FILE = FFMpeg_iOS_Jerry/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2208,20 +1972,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 arm64e armv7s";
-<<<<<<< HEAD
 				WARNING_CFLAGS = "-Wno-documentation";
-=======
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 			};
 			name = Debug;
 		};
 		D71013CB206CF8B800C5D4AF /* Release */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
-			baseConfigurationReference = D1E6618881F4E91AD51DBFB7 /* Pods-FFMpeg_iOS_Jerry.release.xcconfig */;
-=======
-			baseConfigurationReference = A6F55B074BEF0B7D65125AD1 /* Pods-FFMpeg_iOS_Jerry.release.xcconfig */;
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+			baseConfigurationReference = 6E1E09A83437FF1DE1C3B4B7 /* Pods-FFMpeg_iOS_Jerry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
@@ -2232,7 +1989,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/libraries",
 					"$(PROJECT_DIR)/libraries/Simulator",
-<<<<<<< HEAD
 					"$(PROJECT_DIR)/Libraries",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2244,11 +2000,6 @@
 					"$(SDKROOT)/usr/include/libresolv",
 					"$(PROJECT_DIR)/Libraries/rsa/**",
 				);
-=======
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$SRCROOT/FFMpeg_iOS_Jerry/PrefixHeader.pch";
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 				INFOPLIST_FILE = FFMpeg_iOS_Jerry/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2314,20 +2065,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 arm64e armv7s";
-<<<<<<< HEAD
 				WARNING_CFLAGS = "-Wno-documentation";
-=======
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 			};
 			name = Release;
 		};
 		D71013CD206CF8B800C5D4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
-			baseConfigurationReference = F3F3CA009AE4C34A8B80F6DA /* Pods-FFMpeg_iOS_JerryTests.debug.xcconfig */;
-=======
-			baseConfigurationReference = A04BD047A8A9F7A71DEA4260 /* Pods-FFMpeg_iOS_JerryTests.debug.xcconfig */;
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+			baseConfigurationReference = A1FECC390577D30165BDC5DA /* Pods-FFMpeg_iOS_JerryTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -2343,11 +2087,7 @@
 		};
 		D71013CE206CF8B800C5D4AF /* Release */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
-			baseConfigurationReference = B2C3BF5F9CE35DD5DD2C9143 /* Pods-FFMpeg_iOS_JerryTests.release.xcconfig */;
-=======
-			baseConfigurationReference = 83B61F1F26F37066DC80914A /* Pods-FFMpeg_iOS_JerryTests.release.xcconfig */;
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+			baseConfigurationReference = 12557FD2F892207DC59C6AF4 /* Pods-FFMpeg_iOS_JerryTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -2363,11 +2103,7 @@
 		};
 		D71013D0206CF8B800C5D4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
-			baseConfigurationReference = 28248F402680F7AA75375F3A /* Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig */;
-=======
-			baseConfigurationReference = E3CF66018B587CCA1A0B34E3 /* Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig */;
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+			baseConfigurationReference = 1D82F371CA7CD1E4C1368CD9 /* Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 622A9GB38Y;
@@ -2382,11 +2118,7 @@
 		};
 		D71013D1206CF8B800C5D4AF /* Release */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
-			baseConfigurationReference = DB6CED8558116E4D83C89923 /* Pods-FFMpeg_iOS_JerryUITests.release.xcconfig */;
-=======
-			baseConfigurationReference = E255EA5BEBBD63A979D22A68 /* Pods-FFMpeg_iOS_JerryUITests.release.xcconfig */;
->>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
+			baseConfigurationReference = B1D23474309E7461C5D7B8B5 /* Pods-FFMpeg_iOS_JerryUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 622A9GB38Y;
