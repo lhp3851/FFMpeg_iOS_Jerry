@@ -24,7 +24,6 @@ blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:alha]
 #define RGBa(r, g, b,a) [UIColor colorWithRed:(r) / 255.f green:(g) / 255.f blue:(b) / 255.f alpha:a]
 
 
-
 #define KKCLEAR_COLOR              [UIColor clearColor]//透明色
 #define kDEEP_COLOR                RGBHex(0xf5f4f9) //深色背景
 #define kBACKGROUND_COLOR          RGBHex(0xffffff) //白色背景
@@ -34,5 +33,6 @@ blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:alha]
 #define kSELETED_COLOR              RGBHex(0xf74d4d) //被选中颜色
 #define kNORMAL_COLOR               RGBHex(0xffd00c) //普通button的颜色
 #define kHILIGHT_COLOR              RGBHex(0xfbc300) //高亮button的颜色
+
 
 #endif /* Color_h */

@@ -13,6 +13,9 @@
 #define kSCREEN_WIDTH        (MIN([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height))
 #define kSCREEN_HEIGHT       (MAX([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height))
 
+#define kWINDOW_WIDTH        (MIN([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height))
+#define kWINDOW_HEIGHT       (MAX([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height))
+
 //日期相关的宏
 #define kDAY_TIME_INTERVAL 86400
 
@@ -29,9 +32,6 @@
 #define kMEDIA_CAHCE_PATH     [kDATA_CACHE_PATH stringByAppendingPathComponent:@"media/video"]//视频配置目录
 #define kMEDIA_BUFFER_PATH    [kDOCUMENT_PATH  stringByAppendingPathComponent:@"media/buffer"]//视频缓存目录
 
-
-
-
 //通知名字
 static NSString *kNetworkStatusChangedNotification  = @"NetworkStatusChangedNotification";
 static NSString *KLogOutNotification                = @"KLogOutNotification";
@@ -41,7 +41,6 @@ static NSString *kNetWorkError                      = @"网络错误，请检查
 static NSString *kServerError                       = @"服务器无法连接";
 static NSString *kEmptyData                         = @"空空如也，啥都木有~";
 static NSString *kNoSearchData                      = @"没有搜索到相关数据~";
-
 
 
 #endif /* Consts_h */

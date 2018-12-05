@@ -25,12 +25,18 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
+<<<<<<< HEAD
   - FSCalendar (2.8.0)
+=======
+>>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
   - GPUImage (0.1.7)
   - HMSegmentedControl (1.5.5)
   - KissXML (5.2.3)
   - libidn (1.35)
+<<<<<<< HEAD
   - lottie-ios (2.5.2)
+=======
+>>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
   - MJExtension (3.0.15.1)
@@ -39,6 +45,7 @@ PODS:
     - DACircularProgress (~> 2.3.1)
     - MBProgressHUD (~> 1.0)
     - SDWebImage (~> 4.0)
+<<<<<<< HEAD
   - PNChart (0.8.9):
     - UICountingLabel (~> 1.2.0)
   - SDCycleScrollView (1.75):
@@ -49,6 +56,11 @@ PODS:
   - TTTAttributedLabel (2.0.0)
   - UICountingLabel (1.2.0)
   - WebViewJavascriptBridge (6.0.3)
+=======
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+>>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
   - XMPPFramework (4.0.0):
     - XMPPFramework/default (= 4.0.0)
   - XMPPFramework/default (4.0.0):
@@ -56,21 +68,30 @@ PODS:
     - CocoaLumberjack
     - KissXML (~> 5.2)
     - libidn (~> 1.35)
+<<<<<<< HEAD
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
+=======
+>>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - FMDB
+<<<<<<< HEAD
   - FSCalendar
   - GPUImage
   - HMSegmentedControl
   - lottie-ios
+=======
+  - GPUImage
+  - HMSegmentedControl
+>>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
   - Masonry
   - MJExtension
   - MJRefresh
   - MWPhotoBrowser (from `https://github.com/lhp3851/MWPhotoBrowser.git`, commit `cfdf67cd0232a3575b5109067f61dbf7268b5638`)
+<<<<<<< HEAD
   - PNChart
   - SDCycleScrollView (~> 1.75)
   - SDWebImage (~> 4.4.2)
@@ -78,6 +99,10 @@ DEPENDENCIES:
   - WebViewJavascriptBridge (~> 6.0)
   - XMPPFramework
   - YYKit
+=======
+  - SDWebImage (~> 4.4.2)
+  - XMPPFramework
+>>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -86,16 +111,23 @@ SPEC REPOS:
     - CocoaLumberjack
     - DACircularProgress
     - FMDB
+<<<<<<< HEAD
     - FSCalendar
+=======
+>>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
     - GPUImage
     - HMSegmentedControl
     - KissXML
     - libidn
+<<<<<<< HEAD
     - lottie-ios
+=======
+>>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
+<<<<<<< HEAD
     - PNChart
     - SDCycleScrollView
     - SDWebImage
@@ -104,6 +136,10 @@ SPEC REPOS:
     - WebViewJavascriptBridge
     - XMPPFramework
     - YYKit
+=======
+    - SDWebImage
+    - XMPPFramework
+>>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 
 EXTERNAL SOURCES:
   MWPhotoBrowser:
@@ -121,17 +157,24 @@ SPEC CHECKSUMS:
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+<<<<<<< HEAD
   FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+=======
+>>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
   KissXML: 09f88ff8161fd058d67b70740b8b516687b52823
   libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
+<<<<<<< HEAD
   lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+=======
+>>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   MWPhotoBrowser: ae5950a8ecf34785ae0b17b82e67fd090b212ac6
+<<<<<<< HEAD
   PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
@@ -142,5 +185,11 @@ SPEC CHECKSUMS:
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
 PODFILE CHECKSUM: 33b94323d4d5a894afd1fc4fcde9d40ffeed4005
+=======
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
+
+PODFILE CHECKSUM: bb5059da14aa237364288dfa3467fb98484ee39b
+>>>>>>> b12084dff5257b36bb8388232cc73eb18ec1a36f
 
 COCOAPODS: 1.5.3
