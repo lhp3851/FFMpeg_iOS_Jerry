@@ -5,6 +5,8 @@
 ## Build generated
 build/
 DerivedData/
+Libraries/Simulator/
+Libraries/iPhones/
 
 ## Various settings
 *.pbxuser
