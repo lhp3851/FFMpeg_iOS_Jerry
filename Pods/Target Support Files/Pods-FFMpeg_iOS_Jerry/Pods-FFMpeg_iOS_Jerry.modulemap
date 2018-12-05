@@ -1,0 +1,6 @@
+framework module Pods_FFMpeg_iOS_Jerry {
+  umbrella header "Pods-FFMpeg_iOS_Jerry-umbrella.h"
+
+  export *
+  module * { export * }
+}
