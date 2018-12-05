@@ -1,4 +1,4 @@
-
+#import "UICountingLabel.h"
 
 #if !__has_feature(objc_arc)
 #error UICountingLabel is ARC only. Either turn on ARC for the project or use -fobjc-arc flag
@@ -7,8 +7,6 @@
 #pragma mark - UILabelCounter
 
 // This whole class & subclasses are private to UICountingLabel, which is why they are declared here in the .m file
-
-#import "UICountingLabel.h"
 
 @interface UILabelCounter : NSObject
 
