@@ -10,4 +10,6 @@
 #define Fonts_h
 
 
+#define kSYSTEM_FONT(fontSize)  [UIFont systemFontOfSize:fontSize]//字体
+
 #endif /* Fonts_h */

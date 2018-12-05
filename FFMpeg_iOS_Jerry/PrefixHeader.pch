@@ -28,12 +28,16 @@
     #import "Consts.h"
     #import "Fonts.h"
     #import "Color.h"
-
-    #import "BaseViewController.h"
-    #import "BaseView.h"
-    #import "BaseModel.h"
-
+    #import "Components.h"
     #import "Commen.h"
+    #import "Foundation.h"
+    #import "Singleton.h"
+
+    #import "KKHttpTool.h"
+
+    #import "KKBaseViewController.h"
+    #import "KKBaseView.h"
+    #import "KKBaseModel.h"
 
     #import "Masonry.h"
     #import "MJExtension.h"
