@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A6A24E521B3040C00B889C2 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A24E421B3040C00B889C2 /* IJKMediaFramework.framework */; };
 		7A6A24E721B305BD00B889C2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A24E621B305BD00B889C2 /* AudioToolbox.framework */; };
 		7A6A24E921B305D000B889C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A24E821B305D000B889C2 /* CoreGraphics.framework */; };
 		7A6A24EB21B305F100B889C2 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A24EA21B305F100B889C2 /* libbz2.tbd */; };
@@ -153,7 +152,6 @@
 		1D82F371CA7CD1E4C1368CD9 /* Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryUITests/Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5377C9F10F60C1466C792663 /* Pods-FFMpeg_iOS_Jerry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_Jerry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_Jerry/Pods-FFMpeg_iOS_Jerry.debug.xcconfig"; sourceTree = "<group>"; };
 		6E1E09A83437FF1DE1C3B4B7 /* Pods-FFMpeg_iOS_Jerry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_Jerry.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_Jerry/Pods-FFMpeg_iOS_Jerry.release.xcconfig"; sourceTree = "<group>"; };
-		7A6A24E421B3040C00B889C2 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = Simulator/IJKMediaFramework.framework; sourceTree = "<group>"; };
 		7A6A24E621B305BD00B889C2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7A6A24E821B305D000B889C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7A6A24EA21B305F100B889C2 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
@@ -468,7 +466,6 @@
 				D71013DB206CFBE000C5D4AF /* QuartzCore.framework in Frameworks */,
 				D71013D9206CFBD400C5D4AF /* AVFoundation.framework in Frameworks */,
 				D71013D5206CFBBC00C5D4AF /* CoreVideo.framework in Frameworks */,
-				7A6A24E521B3040C00B889C2 /* IJKMediaFramework.framework in Frameworks */,
 				7A6A266D21B6DD2100B889C2 /* libssl.a in Frameworks */,
 				E716850D61FF6F15E1D1D3DC /* Pods_FFMpeg_iOS_Jerry.framework in Frameworks */,
 			);
@@ -513,7 +510,6 @@
 				7A6A261321B6DD2000B889C2 /* rsa */,
 				7A6A25B321B6C24D00B889C2 /* AFgzipRequestSerializer */,
 				7A6A256A21B6B46100B889C2 /* WebP.framework */,
-				7A6A24E421B3040C00B889C2 /* IJKMediaFramework.framework */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
