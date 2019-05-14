@@ -78,15 +78,15 @@ static AFHTTPSessionManager *jsonZipMgr;
     KKUReachability *curReach = [noti object];
     NSParameterAssert([curReach isKindOfClass:[KKUReachability class]]);
     NSString *netStatus;
-    NetworkStatus status = [curReach currentReachabilityStatus];
+    KKNetworkStatus status = [curReach currentReachabilityStatus];
     switch (status) {
-        case ReachableViaWWAN:
+        case ViaWWAN:
             netStatus = KKHttpToolNetWorkStatusWWAN;
             break;
-        case ReachableViaWiFi:
+        case ViaWiFi:
             netStatus = KKHttpToolNetWorkStatusWiFi;
             break;
-        case NotReachable:
+        case UnReachable:
             netStatus = KKHttpToolNetWorkStatusDisconnect;
             [KKStarPromptBox showPromptBoxWithWords:kNetWorkError];
             break;
@@ -149,7 +149,7 @@ static AFHTTPSessionManager *jsonZipMgr;
     }
     return internetRe;
 }
-+ (NetworkStatus)currentNetStatus
++ (KKNetworkStatus)currentNetStatus
 {
     return [[self sharedReachability] currentReachabilityStatus];
 }
@@ -219,7 +219,7 @@ static AFHTTPSessionManager *jsonZipMgr;
         if (respone.statusCode == errorServerException) {
             [self erroCode:errorServerException response:nil success:nil failure:nil];
         }
-        if ([self currentNetStatus] == NotReachable) {
+        if ([self currentNetStatus] == UnReachable) {
             [KKStarPromptBox showPromptBoxWithWords:kNetWorkError toView:nil];
         }
     }];
@@ -283,7 +283,7 @@ static AFHTTPSessionManager *jsonZipMgr;
         if (respone.statusCode == errorServerException) {
             [self erroCode:errorServerException response:nil success:nil failure:nil];
         }
-        if ([self currentNetStatus] == NotReachable) {
+        if ([self currentNetStatus] == UnReachable) {
             [KKStarPromptBox showPromptBoxWithWords:kNetWorkError toView:nil];
         }
     }];
@@ -295,7 +295,7 @@ static AFHTTPSessionManager *jsonZipMgr;
 }
 + (NSURLSessionDataTask *)post:(NSString *)url params:(NSDictionary *)params data:(NSData *)data fileName:(NSString *)fileName name:(NSString *)name mimeType:(NSString *)mimeType progress:(KKProgress)progress success:(KKSUCCESS)success failure:(KKFAILURE)failure
 {
-    if ([self currentNetStatus] == NotReachable) {
+    if ([self currentNetStatus] == UnReachable) {
         if (failure) {
             NSError *err = [NSError errorWithDomain:@"localhost" code:kNonNet userInfo:nil];
             failure(err);
@@ -321,7 +321,7 @@ static AFHTTPSessionManager *jsonZipMgr;
 }
 + (NSURLSessionDataTask *)post:(NSString *)url video:(NSObject *)videoFile ignoreUploaded:(BOOL)ignore progress:(KKProgress)progress success:(KKSUCCESS)success failure:(KKFAILURE)failure
 {
-    if ([self currentNetStatus] == NotReachable) {
+    if ([self currentNetStatus] == UnReachable) {
         if (failure) {
             NSError *err = [NSError errorWithDomain:@"localhost" code:kNonNet userInfo:nil];
             failure(err);
@@ -452,7 +452,7 @@ static AFHTTPSessionManager *jsonZipMgr;
 + (NSURLSessionDataTask *)post:(NSString *)url params:(NSDictionary *)params cookied:(BOOL)enabled security:(BOOL)security success:(KKSUCCESS)success failure:(KKFAILURE)failure
 {
     print(@"c--post--%@", url);
-    if ([self currentNetStatus] == NotReachable) {
+    if ([self currentNetStatus] == UnReachable) {
         if (failure) {
             NSError *err = [NSError errorWithDomain:@"localhost" code:kNonNet userInfo:nil];
             failure(err);
@@ -488,17 +488,17 @@ static AFHTTPSessionManager *jsonZipMgr;
 +(KKNetWorkStateType)getNetWorkStates{
     KKNetWorkStateType state = 0;
     switch ([self currentNetStatus]) {
-        case NotReachable:
+        case UnReachable:
         {
             state = KKNetWorkStateTypeNone;
         }
             break;
-        case ReachableViaWiFi:
+        case ViaWiFi:
         {
             state = KKNetWorkStateTypeWIFI;
         }
             break;
-        case ReachableViaWWAN:
+        case ViaWWAN:
         {
             state = KKNetWorkStateTypeWWAN;
         }

@@ -97,6 +97,12 @@
 		7A6A268421B6E42900B889C2 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A267E21B6E42900B889C2 /* NSData+Base64.m */; };
 		9B4A7484CD75E330057B67F1 /* Pods_FFMpeg_iOS_JerryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D6E15F86B3B8545BF8EC48 /* Pods_FFMpeg_iOS_JerryUITests.framework */; };
 		B23DC7636B8B603F6E542602 /* Pods_FFMpeg_iOS_JerryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7F3B4897D230BFF9AA41C9 /* Pods_FFMpeg_iOS_JerryTests.framework */; };
+		BE89D70C228AADD700D0F70F /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = BE89D701228AADD700D0F70F /* Request.m */; };
+		BE89D70D228AADD700D0F70F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BE89D704228AADD700D0F70F /* Reachability.m */; };
+		BE89D70E228AADD700D0F70F /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE89D706228AADD700D0F70F /* SessionManager.m */; };
+		BE89D70F228AADD700D0F70F /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = BE89D707228AADD700D0F70F /* Response.m */; };
+		BE89D710228AADD700D0F70F /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE89D709228AADD700D0F70F /* NetWorkManager.m */; };
+		BE89D714228AB0C600D0F70F /* NetWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE89D713228AB0C600D0F70F /* NetWorkViewController.m */; };
 		D70E8AEB206E27B700E21C46 /* PictureTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D70E8AEA206E27B700E21C46 /* PictureTool.m */; };
 		D70E8AEF206E2CAD00E21C46 /* KKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70E8AEE206E2CAD00E21C46 /* KKBaseViewController.m */; };
 		D70E8AF6206E2D1300E21C46 /* KKBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70E8AF5206E2D1300E21C46 /* KKBaseView.m */; };
@@ -407,6 +413,19 @@
 		7C7F3B4897D230BFF9AA41C9 /* Pods_FFMpeg_iOS_JerryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_iOS_JerryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FECC390577D30165BDC5DA /* Pods-FFMpeg_iOS_JerryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryTests/Pods-FFMpeg_iOS_JerryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1D23474309E7461C5D7B8B5 /* Pods-FFMpeg_iOS_JerryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryUITests/Pods-FFMpeg_iOS_JerryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE89D700228AADD700D0F70F /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		BE89D701228AADD700D0F70F /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		BE89D702228AADD700D0F70F /* NetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManager.h; sourceTree = "<group>"; };
+		BE89D704228AADD700D0F70F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		BE89D705228AADD700D0F70F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BE89D706228AADD700D0F70F /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
+		BE89D707228AADD700D0F70F /* Response.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		BE89D708228AADD700D0F70F /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		BE89D709228AADD700D0F70F /* NetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManager.m; sourceTree = "<group>"; };
+		BE89D70A228AADD700D0F70F /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		BE89D70B228AADD700D0F70F /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		BE89D712228AB0C600D0F70F /* NetWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkViewController.h; sourceTree = "<group>"; };
+		BE89D713228AB0C600D0F70F /* NetWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkViewController.m; sourceTree = "<group>"; };
 		D6D6E15F86B3B8545BF8EC48 /* Pods_FFMpeg_iOS_JerryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_iOS_JerryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70E8AE9206E27B700E21C46 /* PictureTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureTool.h; sourceTree = "<group>"; };
 		D70E8AEA206E27B700E21C46 /* PictureTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureTool.m; sourceTree = "<group>"; };
@@ -517,6 +536,8 @@
 		7A6A24F821B3DE2D00B889C2 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				BE89D711228AB0C600D0F70F /* NetWorkTest */,
+				7A6A25BF21B6D23C00B889C2 /* Accounts */,
 				D71013A3206CF8B800C5D4AF /* ViewController.h */,
 				D71013A4206CF8B800C5D4AF /* ViewController.m */,
 			);
@@ -1156,6 +1177,41 @@
 			path = Rsa;
 			sourceTree = "<group>";
 		};
+		BE89D6FF228AADD700D0F70F /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				BE89D700228AADD700D0F70F /* Response.h */,
+				BE89D701228AADD700D0F70F /* Request.m */,
+				BE89D702228AADD700D0F70F /* NetWorkManager.h */,
+				BE89D703228AADD700D0F70F /* Reachaility */,
+				BE89D706228AADD700D0F70F /* SessionManager.m */,
+				BE89D707228AADD700D0F70F /* Response.m */,
+				BE89D708228AADD700D0F70F /* Request.h */,
+				BE89D709228AADD700D0F70F /* NetWorkManager.m */,
+				BE89D70A228AADD700D0F70F /* Const.h */,
+				BE89D70B228AADD700D0F70F /* SessionManager.h */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		BE89D703228AADD700D0F70F /* Reachaility */ = {
+			isa = PBXGroup;
+			children = (
+				BE89D704228AADD700D0F70F /* Reachability.m */,
+				BE89D705228AADD700D0F70F /* Reachability.h */,
+			);
+			path = Reachaility;
+			sourceTree = "<group>";
+		};
+		BE89D711228AB0C600D0F70F /* NetWorkTest */ = {
+			isa = PBXGroup;
+			children = (
+				BE89D712228AB0C600D0F70F /* NetWorkViewController.h */,
+				BE89D713228AB0C600D0F70F /* NetWorkViewController.m */,
+			);
+			path = NetWorkTest;
+			sourceTree = "<group>";
+		};
 		D70E88B6206E0D4F00E21C46 /* Commen */ = {
 			isa = PBXGroup;
 			children = (
@@ -1186,6 +1242,7 @@
 		D70E8AE5206E251F00E21C46 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				BE89D6FF228AADD700D0F70F /* NetWork */,
 				7A6A25C421B6D31500B889C2 /* Singleton */,
 				7A6A25B721B6C5F400B889C2 /* Encrypt */,
 				7A6A259721B6C06C00B889C2 /* HTTPTool */,
@@ -1316,7 +1373,6 @@
 		D710139F206CF8B800C5D4AF /* FFMpeg_iOS_Jerry */ = {
 			isa = PBXGroup;
 			children = (
-				7A6A25BF21B6D23C00B889C2 /* Accounts */,
 				7A6A24F821B3DE2D00B889C2 /* Modules */,
 				D71013A0206CF8B800C5D4AF /* AppDelegate.h */,
 				D71013A1206CF8B800C5D4AF /* AppDelegate.m */,
@@ -1641,6 +1697,7 @@
 				7A6A254621B6AAF600B889C2 /* UIImage+RTTint.m in Sources */,
 				7A6A25FA21B6DB8300B889C2 /* unzip.c in Sources */,
 				7A6A250C21B5753800B889C2 /* KKBaseTableView.m in Sources */,
+				BE89D70F228AADD700D0F70F /* Response.m in Sources */,
 				7A6A267021B6DD2100B889C2 /* openssl_cryptoimp.cpp in Sources */,
 				7A6A25BE21B6C72E00B889C2 /* KKErrorTool.m in Sources */,
 				7A6A268121B6E42900B889C2 /* OpenSSLRSAWrapper.m in Sources */,
@@ -1673,16 +1730,19 @@
 				7A6A25FB21B6DB8300B889C2 /* zip.c in Sources */,
 				7A6A25A121B6C06C00B889C2 /* KKDownloadManager.m in Sources */,
 				7A6A255121B6ABFC00B889C2 /* KKButton.m in Sources */,
+				BE89D70C228AADD700D0F70F /* Request.m in Sources */,
 				7A6A267121B6DD2100B889C2 /* openssl_crypto_x_impl.cpp in Sources */,
 				7A6A260121B6DB8400B889C2 /* aescrypt.c in Sources */,
 				7A6A25A221B6C06C00B889C2 /* KKHttpTool.m in Sources */,
 				7A6A252421B6A8BF00B889C2 /* HookUtility.m in Sources */,
 				7A6A258321B6BBAD00B889C2 /* RegexKitLite.m in Sources */,
+				BE89D710228AADD700D0F70F /* NetWorkManager.m in Sources */,
 				7A6A255421B6AC0600B889C2 /* KKLabel.m in Sources */,
 				D70E8AF6206E2D1300E21C46 /* KKBaseView.m in Sources */,
 				7A6A267F21B6E42900B889C2 /* NSString+Base64.m in Sources */,
 				7A6A252C21B6AA7F00B889C2 /* UncaughtExceptionHandler.mm in Sources */,
 				7A6A254921B6AB0D00B889C2 /* Foundation+Log.m in Sources */,
+				BE89D70E228AADD700D0F70F /* SessionManager.m in Sources */,
 				7A6A260421B6DB8400B889C2 /* prng.c in Sources */,
 				7A6A258E21B6BCDD00B889C2 /* NSDate+Extension.m in Sources */,
 				7A6A25A321B6C06C00B889C2 /* KKHttpToolBase.m in Sources */,
@@ -1710,11 +1770,13 @@
 				7A6A25B021B6C16A00B889C2 /* KKStarPromptBox.m in Sources */,
 				7A6A253821B6AAE100B889C2 /* NSString+emoji.m in Sources */,
 				7A6A260021B6DB8400B889C2 /* hmac.c in Sources */,
+				BE89D714228AB0C600D0F70F /* NetWorkViewController.m in Sources */,
 				7A6A256F21B6B51E00B889C2 /* UIColor+Extension.m in Sources */,
 				7A6A255F21B6B0DD00B889C2 /* KKImageView.m in Sources */,
 				7A6A250721B574C200B889C2 /* kkBaseTableViewController.m in Sources */,
 				7A6A254521B6AAF600B889C2 /* UIImageView+Extension.m in Sources */,
 				D71013A2206CF8B800C5D4AF /* AppDelegate.m in Sources */,
+				BE89D70D228AADD700D0F70F /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

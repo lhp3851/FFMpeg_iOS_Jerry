@@ -315,7 +315,7 @@ typedef void (^KKDownloadComplateBlock) (NSString *filePath, BOOL success, NSErr
  *
  *  @return 网络状态
  */
-+ (NetworkStatus)currentNetStatus;
++ (KKNetworkStatus)currentNetStatus;
 + (KKUReachability *)sharedReachability;
 + (void)resetHttpRe;
 
