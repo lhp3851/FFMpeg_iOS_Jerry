@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "KKIPTool.h"
 
 
 @interface ViewController ()
@@ -17,7 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+    NSString *IP = KKIPTool.sharedKKIPTool.getLocalIPAddresses;
+    print(@"IP地址：%@",IP);
+    
+    NSString *remoteIp = KKIPTool.sharedKKIPTool.getIPAdddress;
+    
+    print(@"远程IP地址：%@-%@",remoteIp,KKIPTool.sharedKKIPTool.getIPAddresses);
+    
 }
 
 

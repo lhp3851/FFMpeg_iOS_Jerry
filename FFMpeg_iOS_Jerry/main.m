@@ -9,7 +9,21 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
+
+__attribute__((constructor)) void before_main() {
+    printf("--- %s\n", __func__);
+}
+
+__attribute__((destructor)) void after_main() {
+    printf("--- %s\n", __func__);
+}
+
 int main(int argc, char * argv[]) {
+    printf("--- %s\n", __func__);
+    
+//    exit(0);
+//    
+//    printf("--- %s, exit ?\n", __func__);
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }

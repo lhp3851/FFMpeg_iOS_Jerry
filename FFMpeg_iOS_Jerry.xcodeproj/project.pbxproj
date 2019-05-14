@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A6A24E521B3040C00B889C2 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A24E421B3040C00B889C2 /* IJKMediaFramework.framework */; };
 		7A6A24E721B305BD00B889C2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A24E621B305BD00B889C2 /* AudioToolbox.framework */; };
 		7A6A24E921B305D000B889C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A24E821B305D000B889C2 /* CoreGraphics.framework */; };
 		7A6A24EB21B305F100B889C2 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A24EA21B305F100B889C2 /* libbz2.tbd */; };
@@ -96,6 +95,8 @@
 		7A6A268121B6E42900B889C2 /* OpenSSLRSAWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A267921B6E42900B889C2 /* OpenSSLRSAWrapper.m */; };
 		7A6A268221B6E42900B889C2 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A267C21B6E42900B889C2 /* NSData+CommonCrypto.m */; };
 		7A6A268421B6E42900B889C2 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A267E21B6E42900B889C2 /* NSData+Base64.m */; };
+		7A75055C21B962B5002A224D /* KKIPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A75055B21B962B5002A224D /* KKIPTool.m */; };
+		7A75055E21B97673002A224D /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A75055D21B97673002A224D /* IJKMediaFramework.framework */; };
 		9B4A7484CD75E330057B67F1 /* Pods_FFMpeg_iOS_JerryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D6E15F86B3B8545BF8EC48 /* Pods_FFMpeg_iOS_JerryUITests.framework */; };
 		B23DC7636B8B603F6E542602 /* Pods_FFMpeg_iOS_JerryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7F3B4897D230BFF9AA41C9 /* Pods_FFMpeg_iOS_JerryTests.framework */; };
 		D70E8AEB206E27B700E21C46 /* PictureTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D70E8AEA206E27B700E21C46 /* PictureTool.m */; };
@@ -153,7 +154,6 @@
 		1D82F371CA7CD1E4C1368CD9 /* Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryUITests/Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5377C9F10F60C1466C792663 /* Pods-FFMpeg_iOS_Jerry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_Jerry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_Jerry/Pods-FFMpeg_iOS_Jerry.debug.xcconfig"; sourceTree = "<group>"; };
 		6E1E09A83437FF1DE1C3B4B7 /* Pods-FFMpeg_iOS_Jerry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_Jerry.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_Jerry/Pods-FFMpeg_iOS_Jerry.release.xcconfig"; sourceTree = "<group>"; };
-		7A6A24E421B3040C00B889C2 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = Simulator/IJKMediaFramework.framework; sourceTree = "<group>"; };
 		7A6A24E621B305BD00B889C2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7A6A24E821B305D000B889C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7A6A24EA21B305F100B889C2 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
@@ -406,6 +406,9 @@
 		7A6A267B21B6E42900B889C2 /* KKRsaTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRsaTool.h; sourceTree = "<group>"; };
 		7A6A267C21B6E42900B889C2 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
 		7A6A267E21B6E42900B889C2 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		7A75055A21B962B5002A224D /* KKIPTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKIPTool.h; sourceTree = "<group>"; };
+		7A75055B21B962B5002A224D /* KKIPTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKIPTool.m; sourceTree = "<group>"; };
+		7A75055D21B97673002A224D /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = iPhones/IJKMediaFramework.framework; sourceTree = "<group>"; };
 		7C7F3B4897D230BFF9AA41C9 /* Pods_FFMpeg_iOS_JerryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_iOS_JerryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FECC390577D30165BDC5DA /* Pods-FFMpeg_iOS_JerryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryTests/Pods-FFMpeg_iOS_JerryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1D23474309E7461C5D7B8B5 /* Pods-FFMpeg_iOS_JerryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryUITests/Pods-FFMpeg_iOS_JerryUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -458,6 +461,7 @@
 				D71013D7206CFBC600C5D4AF /* OpenGLES.framework in Frameworks */,
 				7A6A24F121B3061200B889C2 /* MobileCoreServices.framework in Frameworks */,
 				7A6A24EF21B3060200B889C2 /* MediaPlayer.framework in Frameworks */,
+				7A75055E21B97673002A224D /* IJKMediaFramework.framework in Frameworks */,
 				7A6A24ED21B305F900B889C2 /* libz.tbd in Frameworks */,
 				7A6A24EB21B305F100B889C2 /* libbz2.tbd in Frameworks */,
 				7A6A266C21B6DD2100B889C2 /* libcrypto.a in Frameworks */,
@@ -468,7 +472,6 @@
 				D71013DB206CFBE000C5D4AF /* QuartzCore.framework in Frameworks */,
 				D71013D9206CFBD400C5D4AF /* AVFoundation.framework in Frameworks */,
 				D71013D5206CFBBC00C5D4AF /* CoreVideo.framework in Frameworks */,
-				7A6A24E521B3040C00B889C2 /* IJKMediaFramework.framework in Frameworks */,
 				7A6A266D21B6DD2100B889C2 /* libssl.a in Frameworks */,
 				E716850D61FF6F15E1D1D3DC /* Pods_FFMpeg_iOS_Jerry.framework in Frameworks */,
 			);
@@ -509,11 +512,11 @@
 		7A6A24E121B3029100B889C2 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				7A75055D21B97673002A224D /* IJKMediaFramework.framework */,
 				7A6A258021B6BBAD00B889C2 /* RegexKitLite */,
 				7A6A261321B6DD2000B889C2 /* rsa */,
 				7A6A25B321B6C24D00B889C2 /* AFgzipRequestSerializer */,
 				7A6A256A21B6B46100B889C2 /* WebP.framework */,
-				7A6A24E421B3040C00B889C2 /* IJKMediaFramework.framework */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -864,12 +867,13 @@
 		7A6A259721B6C06C00B889C2 /* HTTPTool */ = {
 			isa = PBXGroup;
 			children = (
+				7A75055921B96297002A224D /* IP */,
 				7A6A260B21B6DCB700B889C2 /* Godzippa */,
-				7A6A260921B6DBBA00B889C2 /* KKZipArchive.h */,
-				7A6A260821B6DBBA00B889C2 /* KKZipArchive.m */,
 				7A6A25D521B6DB8300B889C2 /* ZipArchive */,
 				7A6A25BB21B6C6CF00B889C2 /* RequestEerror */,
 				7A6A25A421B6C0BE00B889C2 /* kkuReachability */,
+				7A6A260921B6DBBA00B889C2 /* KKZipArchive.h */,
+				7A6A260821B6DBBA00B889C2 /* KKZipArchive.m */,
 				7A6A259821B6C06C00B889C2 /* KKUploadManager.m */,
 				7A6A259921B6C06C00B889C2 /* KKDownloadManager.m */,
 				7A6A259A21B6C06C00B889C2 /* KKHttpToolBase.h */,
@@ -1158,6 +1162,15 @@
 				7A6A267E21B6E42900B889C2 /* NSData+Base64.m */,
 			);
 			path = Rsa;
+			sourceTree = "<group>";
+		};
+		7A75055921B96297002A224D /* IP */ = {
+			isa = PBXGroup;
+			children = (
+				7A75055A21B962B5002A224D /* KKIPTool.h */,
+				7A75055B21B962B5002A224D /* KKIPTool.m */,
+			);
+			path = IP;
 			sourceTree = "<group>";
 		};
 		D70E88B6206E0D4F00E21C46 /* Commen */ = {
@@ -1666,6 +1679,7 @@
 				7A6A25BA21B6C63E00B889C2 /* KKCryptTool.m in Sources */,
 				7A6A252121B6A87900B889C2 /* KKBlankView.m in Sources */,
 				7A6A253721B6AAE100B889C2 /* NSString+KKCountString.m in Sources */,
+				7A75055C21B962B5002A224D /* KKIPTool.m in Sources */,
 				7A6A259621B6BFB000B889C2 /* KKWindow.m in Sources */,
 				7A6A25C321B6D28400B889C2 /* KKAccountModel.m in Sources */,
 				7A6A256921B6B19800B889C2 /* KKActionSheet.m in Sources */,
@@ -1892,11 +1906,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 622A9GB38Y;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/libraries",
 					"$(PROJECT_DIR)/libraries/Simulator",
 					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)/Libraries/iPhones",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = $SRCROOT/FFMpeg_iOS_Jerry/PrefixHeader.pch;
@@ -1968,7 +1984,7 @@
 					"-framework",
 					"\"libidn\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tmkj.FFMpeg-iOS-Jerry";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhp3851.project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 arm64e armv7s";
@@ -1985,11 +2001,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 622A9GB38Y;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/libraries",
 					"$(PROJECT_DIR)/libraries/Simulator",
 					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)/Libraries/iPhones",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = $SRCROOT/FFMpeg_iOS_Jerry/PrefixHeader.pch;
@@ -2061,7 +2079,7 @@
 					"-framework",
 					"\"libidn\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tmkj.FFMpeg-iOS-Jerry";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhp3851.project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 arm64e armv7s";
