@@ -1,4 +1,6 @@
-
+/**
+ 1、console Unicode 编码
+ */
 #import <Foundation/Foundation.h>
 
 @implementation NSDictionary (Log)

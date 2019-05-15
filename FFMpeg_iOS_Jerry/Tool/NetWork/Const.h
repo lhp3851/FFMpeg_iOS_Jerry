@@ -1,0 +1,22 @@
+//
+//  Const.h
+//  sm_ios_base
+//
+//  Created by sumian on 2019/5/14.
+//
+
+#ifndef Const_h
+#define Const_h
+
+//struct NetWorkStatusNotification {
+//
+//};
+
+
+////////////////////////////////////////////////////////////////
+//MARK:-
+//MARK:NetWorkStatusNotification
+//MARK:-
+////////////////////////////////////////////////////////////////
+
+#endif /* Const_h */

@@ -97,6 +97,11 @@
 		7A6A268421B6E42900B889C2 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A267E21B6E42900B889C2 /* NSData+Base64.m */; };
 		7A75055C21B962B5002A224D /* KKIPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A75055B21B962B5002A224D /* KKIPTool.m */; };
 		7A75055E21B97673002A224D /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A75055D21B97673002A224D /* IJKMediaFramework.framework */; };
+		7A988ABB228AF4400071C524 /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A988AB1228AF43F0071C524 /* NetWorkManager.m */; };
+		7A988ABC228AF4400071C524 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A988AB4228AF43F0071C524 /* Reachability.m */; };
+		7A988ABD228AF4400071C524 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A988AB6228AF43F0071C524 /* Request.m */; };
+		7A988ABE228AF4400071C524 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A988AB8228AF43F0071C524 /* Response.m */; };
+		7A988ABF228AF4400071C524 /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A988ABA228AF43F0071C524 /* SessionManager.m */; };
 		9B4A7484CD75E330057B67F1 /* Pods_FFMpeg_iOS_JerryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D6E15F86B3B8545BF8EC48 /* Pods_FFMpeg_iOS_JerryUITests.framework */; };
 		B23DC7636B8B603F6E542602 /* Pods_FFMpeg_iOS_JerryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7F3B4897D230BFF9AA41C9 /* Pods_FFMpeg_iOS_JerryTests.framework */; };
 		D70E8AEB206E27B700E21C46 /* PictureTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D70E8AEA206E27B700E21C46 /* PictureTool.m */; };
@@ -409,6 +414,17 @@
 		7A75055A21B962B5002A224D /* KKIPTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKIPTool.h; sourceTree = "<group>"; };
 		7A75055B21B962B5002A224D /* KKIPTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKIPTool.m; sourceTree = "<group>"; };
 		7A75055D21B97673002A224D /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = iPhones/IJKMediaFramework.framework; sourceTree = "<group>"; };
+		7A988AAF228AF43F0071C524 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		7A988AB0228AF43F0071C524 /* NetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManager.h; sourceTree = "<group>"; };
+		7A988AB1228AF43F0071C524 /* NetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManager.m; sourceTree = "<group>"; };
+		7A988AB3228AF43F0071C524 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7A988AB4228AF43F0071C524 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7A988AB5228AF43F0071C524 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		7A988AB6228AF43F0071C524 /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		7A988AB7228AF43F0071C524 /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		7A988AB8228AF43F0071C524 /* Response.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		7A988AB9228AF43F0071C524 /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		7A988ABA228AF43F0071C524 /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
 		7C7F3B4897D230BFF9AA41C9 /* Pods_FFMpeg_iOS_JerryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_iOS_JerryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FECC390577D30165BDC5DA /* Pods-FFMpeg_iOS_JerryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryTests/Pods-FFMpeg_iOS_JerryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1D23474309E7461C5D7B8B5 /* Pods-FFMpeg_iOS_JerryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryUITests/Pods-FFMpeg_iOS_JerryUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -524,6 +540,7 @@
 		7A6A24F821B3DE2D00B889C2 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				7A6A25BF21B6D23C00B889C2 /* Accounts */,
 				D71013A3206CF8B800C5D4AF /* ViewController.h */,
 				D71013A4206CF8B800C5D4AF /* ViewController.m */,
 			);
@@ -1173,6 +1190,32 @@
 			path = IP;
 			sourceTree = "<group>";
 		};
+		7A988AAE228AF43F0071C524 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				7A988AAF228AF43F0071C524 /* Const.h */,
+				7A988AB0228AF43F0071C524 /* NetWorkManager.h */,
+				7A988AB1228AF43F0071C524 /* NetWorkManager.m */,
+				7A988AB5228AF43F0071C524 /* Request.h */,
+				7A988AB6228AF43F0071C524 /* Request.m */,
+				7A988AB7228AF43F0071C524 /* Response.h */,
+				7A988AB8228AF43F0071C524 /* Response.m */,
+				7A988AB9228AF43F0071C524 /* SessionManager.h */,
+				7A988ABA228AF43F0071C524 /* SessionManager.m */,
+				7A988AB2228AF43F0071C524 /* Reachaility */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		7A988AB2228AF43F0071C524 /* Reachaility */ = {
+			isa = PBXGroup;
+			children = (
+				7A988AB3228AF43F0071C524 /* Reachability.h */,
+				7A988AB4228AF43F0071C524 /* Reachability.m */,
+			);
+			path = Reachaility;
+			sourceTree = "<group>";
+		};
 		D70E88B6206E0D4F00E21C46 /* Commen */ = {
 			isa = PBXGroup;
 			children = (
@@ -1203,6 +1246,7 @@
 		D70E8AE5206E251F00E21C46 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				7A988AAE228AF43F0071C524 /* NetWork */,
 				7A6A25C421B6D31500B889C2 /* Singleton */,
 				7A6A25B721B6C5F400B889C2 /* Encrypt */,
 				7A6A259721B6C06C00B889C2 /* HTTPTool */,
@@ -1306,17 +1350,17 @@
 		D7101394206CF8B700C5D4AF = {
 			isa = PBXGroup;
 			children = (
-				7A6A251A21B587CC00B889C2 /* FoundationsTool */,
-				7A6A24F921B5711C00B889C2 /* Resources */,
-				D70E8AE5206E251F00E21C46 /* Tool */,
-				7A6A24E121B3029100B889C2 /* Libraries */,
 				D70E88B6206E0D4F00E21C46 /* Commen */,
 				D710139F206CF8B800C5D4AF /* FFMpeg_iOS_Jerry */,
 				D71013B8206CF8B800C5D4AF /* FFMpeg_iOS_JerryTests */,
 				D71013C3206CF8B800C5D4AF /* FFMpeg_iOS_JerryUITests */,
-				D710139E206CF8B800C5D4AF /* Products */,
+				7A6A251A21B587CC00B889C2 /* FoundationsTool */,
 				E4AD8D5AB6B58B15D735C0B5 /* Frameworks */,
+				7A6A24E121B3029100B889C2 /* Libraries */,
 				40AD60E1DF8EE2985A21A64C /* Pods */,
+				D710139E206CF8B800C5D4AF /* Products */,
+				7A6A24F921B5711C00B889C2 /* Resources */,
+				D70E8AE5206E251F00E21C46 /* Tool */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1333,7 +1377,6 @@
 		D710139F206CF8B800C5D4AF /* FFMpeg_iOS_Jerry */ = {
 			isa = PBXGroup;
 			children = (
-				7A6A25BF21B6D23C00B889C2 /* Accounts */,
 				7A6A24F821B3DE2D00B889C2 /* Modules */,
 				D71013A0206CF8B800C5D4AF /* AppDelegate.h */,
 				D71013A1206CF8B800C5D4AF /* AppDelegate.m */,
@@ -1678,6 +1721,7 @@
 				7A6A253621B6AAE100B889C2 /* NSString+Extension.m in Sources */,
 				7A6A25BA21B6C63E00B889C2 /* KKCryptTool.m in Sources */,
 				7A6A252121B6A87900B889C2 /* KKBlankView.m in Sources */,
+				7A988ABE228AF4400071C524 /* Response.m in Sources */,
 				7A6A253721B6AAE100B889C2 /* NSString+KKCountString.m in Sources */,
 				7A75055C21B962B5002A224D /* KKIPTool.m in Sources */,
 				7A6A259621B6BFB000B889C2 /* KKWindow.m in Sources */,
@@ -1705,6 +1749,7 @@
 				7A6A258E21B6BCDD00B889C2 /* NSDate+Extension.m in Sources */,
 				7A6A25A321B6C06C00B889C2 /* KKHttpToolBase.m in Sources */,
 				7A6A256221B6B0F800B889C2 /* KKTextField.m in Sources */,
+				7A988ABB228AF4400071C524 /* NetWorkManager.m in Sources */,
 				7A6A253B21B6AAEB00B889C2 /* UIApplication+App.m in Sources */,
 				7A6A250F21B5755400B889C2 /* KKBaseTableViewCell.m in Sources */,
 				7A6A258F21B6BCDD00B889C2 /* NSTimer+Extension.m in Sources */,
@@ -1727,8 +1772,11 @@
 				7A6A266E21B6DD2100B889C2 /* cipher.cpp in Sources */,
 				7A6A25B021B6C16A00B889C2 /* KKStarPromptBox.m in Sources */,
 				7A6A253821B6AAE100B889C2 /* NSString+emoji.m in Sources */,
+				7A988ABD228AF4400071C524 /* Request.m in Sources */,
+				7A988ABF228AF4400071C524 /* SessionManager.m in Sources */,
 				7A6A260021B6DB8400B889C2 /* hmac.c in Sources */,
 				7A6A256F21B6B51E00B889C2 /* UIColor+Extension.m in Sources */,
+				7A988ABC228AF4400071C524 /* Reachability.m in Sources */,
 				7A6A255F21B6B0DD00B889C2 /* KKImageView.m in Sources */,
 				7A6A250721B574C200B889C2 /* kkBaseTableViewController.m in Sources */,
 				7A6A254521B6AAF600B889C2 /* UIImageView+Extension.m in Sources */,

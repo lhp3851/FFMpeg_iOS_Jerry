@@ -2,6 +2,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/aliyun/aliyun-specs.git'
 platform :ios, '9.0'
+inhibit_all_warnings!
 
 target 'FFMpeg_iOS_Jerry' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
