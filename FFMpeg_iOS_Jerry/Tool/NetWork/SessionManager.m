@@ -18,6 +18,19 @@
 
 @implementation SessionManager
 
+- (NSURLSessionConfiguration *)sessionConfiguration{
+    if (!_sessionConfiguration) {
+        _sessionConfiguration = [NSURLSessionConfiguration defaultSessionConfiguration];
+        _sessionConfiguration.timeoutIntervalForRequest = 15;
+        if (@available(iOS 11.0, *)) {
+            _sessionConfiguration.waitsForConnectivity = true;
+        } else {
+            // Fallback on earlier versions
+        }
+    }
+    return _sessionConfiguration;
+}
+
 - (NSURLSession *)session {
     @synchronized (self) {
         if (!_session) {
@@ -43,6 +56,27 @@
     self.operationQueue.maxConcurrentOperationCount = 1;
     
     return self;
+}
+
+- (void)URLSession:(nonnull NSURLSession *)session downloadTask:(nonnull NSURLSessionDownloadTask *)downloadTask didFinishDownloadingToURL:(nonnull NSURL *)location {
+    
+}
+
+
+#pragma mark NSCopying Protocol
+- (void)encodeWithCoder:(nonnull NSCoder *)aCoder {
+    
+}
+
+- (nullable instancetype)initWithCoder:(nonnull NSCoder *)aDecoder {
+    if ([super init]) {
+        
+    }
+    return self;
+}
+
+- (nonnull id)copyWithZone:(nullable NSZone *)zone {
+    return [[self class] new];
 }
 
 @end

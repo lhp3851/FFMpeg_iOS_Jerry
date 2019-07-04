@@ -20,15 +20,15 @@ typedef void(^CompletionHandler)(id response,NSError *error);
 
 
 #pragma mark get 请求
-- (NSURLSessionDataTask *)getWithURL:(NSString *)url complete:(CompletionHandler)completion;
+- (NSURLSessionDataTask *)getWithURL:(NSString *)url andParameters:(NSDictionary *)parameters complete:(CompletionHandler)completion;
 
 #pragma mark post 请求
 
 
-#pragma mark 下载 请求
+#pragma mark 下载
 
 
-#pragma mark 上传 请求
+#pragma mark 上传
 
 
 #pragma mark 缓存管理

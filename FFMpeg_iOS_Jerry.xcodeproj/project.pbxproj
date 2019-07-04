@@ -157,8 +157,10 @@
 		12557FD2F892207DC59C6AF4 /* Pods-FFMpeg_iOS_JerryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryTests/Pods-FFMpeg_iOS_JerryTests.release.xcconfig"; sourceTree = "<group>"; };
 		15610818CCD5260BE82DD6EF /* Pods_FFMpeg_iOS_Jerry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMpeg_iOS_Jerry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D82F371CA7CD1E4C1368CD9 /* Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryUITests/Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		297E8C8936ECCD91B09AA2DE /* Pods-FFMpeg_iOS_Jerry.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_Jerry.test.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_Jerry/Pods-FFMpeg_iOS_Jerry.test.xcconfig"; sourceTree = "<group>"; };
 		5377C9F10F60C1466C792663 /* Pods-FFMpeg_iOS_Jerry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_Jerry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_Jerry/Pods-FFMpeg_iOS_Jerry.debug.xcconfig"; sourceTree = "<group>"; };
 		6E1E09A83437FF1DE1C3B4B7 /* Pods-FFMpeg_iOS_Jerry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_Jerry.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_Jerry/Pods-FFMpeg_iOS_Jerry.release.xcconfig"; sourceTree = "<group>"; };
+		733AD4B20B92E4FB7BA1EE3B /* Pods-FFMpeg_iOS_JerryUITests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryUITests.test.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryUITests/Pods-FFMpeg_iOS_JerryUITests.test.xcconfig"; sourceTree = "<group>"; };
 		7A6A24E621B305BD00B889C2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7A6A24E821B305D000B889C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7A6A24EA21B305F100B889C2 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
@@ -464,6 +466,7 @@
 		D71013D6206CFBC600C5D4AF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		D71013D8206CFBD400C5D4AF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D71013DA206CFBE000C5D4AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F99A024D15DF94A46FDBAC91 /* Pods-FFMpeg_iOS_JerryTests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMpeg_iOS_JerryTests.test.xcconfig"; path = "Pods/Target Support Files/Pods-FFMpeg_iOS_JerryTests/Pods-FFMpeg_iOS_JerryTests.test.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -521,6 +524,9 @@
 				12557FD2F892207DC59C6AF4 /* Pods-FFMpeg_iOS_JerryTests.release.xcconfig */,
 				1D82F371CA7CD1E4C1368CD9 /* Pods-FFMpeg_iOS_JerryUITests.debug.xcconfig */,
 				B1D23474309E7461C5D7B8B5 /* Pods-FFMpeg_iOS_JerryUITests.release.xcconfig */,
+				297E8C8936ECCD91B09AA2DE /* Pods-FFMpeg_iOS_Jerry.test.xcconfig */,
+				F99A024D15DF94A46FDBAC91 /* Pods-FFMpeg_iOS_JerryTests.test.xcconfig */,
+				733AD4B20B92E4FB7BA1EE3B /* Pods-FFMpeg_iOS_JerryUITests.test.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1445,6 +1451,7 @@
 				D710139B206CF8B800C5D4AF /* Resources */,
 				D70E8AE1206E0DDD00E21C46 /* CopyFiles */,
 				79EA0D71235DA7688C56FF1C /* [CP] Embed Pods Frameworks */,
+				7A988AC4228C654F0071C524 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1685,6 +1692,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7A988AC4228C654F0071C524 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1835,6 +1859,192 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7A988AC0228C4E180071C524 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 arm64e armv7s";
+			};
+			name = Test;
+		};
+		7A988AC1228C4E180071C524 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297E8C8936ECCD91B09AA2DE /* Pods-FFMpeg_iOS_Jerry.test.xcconfig */;
+			buildSettings = {
+				APP_NAME = FFMpeg_Test;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 622A9GB38Y;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libraries",
+					"$(PROJECT_DIR)/libraries/Simulator",
+					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)/Libraries/iPhones",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = $SRCROOT/FFMpeg_iOS_Jerry/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "TEST=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(SDKROOT)/usr/include/libresolv",
+					"$(PROJECT_DIR)/Libraries/rsa/**",
+				);
+				INFOPLIST_FILE = FFMpeg_iOS_Jerry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/rsa/lib",
+					"$(PROJECT_DIR)/Libraries/rsa/openssl",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-licucore",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"CocoaLumberjack\"",
+					"-framework",
+					"\"DACircularProgress\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"FSCalendar\"",
+					"-framework",
+					"\"GPUImage\"",
+					"-framework",
+					"\"HMSegmentedControl\"",
+					"-framework",
+					"\"KissXML\"",
+					"-framework",
+					"\"Lottie\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"MWPhotoBrowser\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"PNChart\"",
+					"-framework",
+					"\"SDCycleScrollView\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"TTTAttributedLabel\"",
+					"-framework",
+					"\"UICountingLabel\"",
+					"-framework",
+					"\"WebViewJavascriptBridge\"",
+					"-framework",
+					"\"XMPPFramework\"",
+					"-framework",
+					"\"YYKit\"",
+					"-framework",
+					"\"libidn\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhp3851.project;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7s";
+				WARNING_CFLAGS = "-Wno-documentation";
+			};
+			name = Test;
+		};
+		7A988AC2228C4E180071C524 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99A024D15DF94A46FDBAC91 /* Pods-FFMpeg_iOS_JerryTests.test.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 622A9GB38Y;
+				INFOPLIST_FILE = FFMpeg_iOS_JerryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmkj.FFMpeg-iOS-JerryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFMpeg_iOS_Jerry.app/FFMpeg_iOS_Jerry";
+			};
+			name = Test;
+		};
+		7A988AC3228C4E180071C524 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733AD4B20B92E4FB7BA1EE3B /* Pods-FFMpeg_iOS_JerryUITests.test.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 622A9GB38Y;
+				INFOPLIST_FILE = FFMpeg_iOS_JerryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tmkj.FFMpeg-iOS-JerryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FFMpeg_iOS_Jerry;
+			};
+			name = Test;
+		};
 		D71013C7206CF8B800C5D4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1949,6 +2159,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5377C9F10F60C1466C792663 /* Pods-FFMpeg_iOS_Jerry.debug.xcconfig */;
 			buildSettings = {
+				APP_NAME = FFMpeg_Dev;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
@@ -1964,6 +2175,10 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = $SRCROOT/FFMpeg_iOS_Jerry/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					"DEBUG=1",
+					"TEST=1",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
@@ -2044,6 +2259,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E1E09A83437FF1DE1C3B4B7 /* Pods-FFMpeg_iOS_Jerry.release.xcconfig */;
 			buildSettings = {
+				APP_NAME = FFMpeg;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
@@ -2059,6 +2275,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = $SRCROOT/FFMpeg_iOS_Jerry/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
@@ -2204,6 +2421,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D71013C7206CF8B800C5D4AF /* Debug */,
+				7A988AC0228C4E180071C524 /* Test */,
 				D71013C8206CF8B800C5D4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2213,6 +2431,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D71013CA206CF8B800C5D4AF /* Debug */,
+				7A988AC1228C4E180071C524 /* Test */,
 				D71013CB206CF8B800C5D4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2222,6 +2441,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D71013CD206CF8B800C5D4AF /* Debug */,
+				7A988AC2228C4E180071C524 /* Test */,
 				D71013CE206CF8B800C5D4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2231,6 +2451,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D71013D0206CF8B800C5D4AF /* Debug */,
+				7A988AC3228C4E180071C524 /* Test */,
 				D71013D1206CF8B800C5D4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
